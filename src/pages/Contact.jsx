@@ -66,7 +66,7 @@ const Contact = () => {
         <h2 className="text-xl font-semibold mb-4">Or reach out via:</h2>
         <div className="flex flex-col gap-4 text-lg">
           <a
-            href="https://x.com/Palakonweb?t=fHFlBRJFhvPA9FSjFLbOCQ&s=08"
+            href="https://x.com/vamshimudiraj"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-blue-500 hover:underline"
@@ -74,7 +74,7 @@ const Contact = () => {
             <FaTwitter size={20} /> Twitter
           </a>
           <a
-            href="https://www.linkedin.com/in/palak-sharma-63716930b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/vamshi05/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-blue-700 hover:underline"
