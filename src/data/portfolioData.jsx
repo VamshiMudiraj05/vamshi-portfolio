@@ -3,7 +3,7 @@ import React from "react";
 export const personalInfo = {
   name: "Pulaboina Vamshi",
   displayName: "Vamshi Mudiraj",
-  brandName: "vamshi",
+  brandName: "vamshionweb",
   role: "Full-Stack Developer & Data Science Engineer",
   shortBio: "B.Tech CSE (Data Science) Graduate from Malla Reddy University (CGPA: 8.85) & Trainee Software Engineer.",
   location: "Hyderabad, Telangana, India",
@@ -16,7 +16,8 @@ export const personalInfo = {
   youtube: "https://www.youtube.com/@vamshi_verse",
   instagram: "https://www.instagram.com/vamshi__verse/",
   memePage: "https://www.instagram.com/mruh_meme_project_/",
-  resumeUrl: "#contact",
+  resume: "/Vamshi_SD.pdf",
+  resumeUrl: "/Vamshi_SD.pdf",
   liveUrl: "https://vamshiportfolio-sigma.vercel.app/",
 };
 
