@@ -83,25 +83,25 @@ export default function Hero({ onViewChange }) {
               </div>
             </div>
 
-            {/* Action Buttons (Content Creation & View Resume) */}
+            {/* Action Buttons (View Resume & Content Creation) */}
             <div className="flex items-center gap-2.5 sm:gap-3.5 self-end sm:self-auto pb-1">
-              <button
-                onClick={() => onViewChange("content")}
-                className="glare-button group flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-[#242424] hover:bg-black text-white dark:bg-white dark:text-black dark:hover:bg-gray-200 rounded-full font-medium text-xs sm:text-sm shadow-md transition-all duration-150 cursor-pointer"
-              >
-                <span>Content Creation</span>
-                <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
-              </button>
-
               <a
                 href={personalInfo.resume || personalInfo.resumeUrl || "/Vamshi_SD.pdf"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glare-button group flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-white dark:bg-[#1a1a1a] text-gray-800 dark:text-white border border-black/10 dark:border-white/15 hover:border-black/25 dark:hover:border-white/30 rounded-full font-medium text-xs sm:text-sm shadow-xs hover:shadow-md transition-all duration-150 cursor-pointer"
+                className="glare-button group flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-[#242424] hover:bg-black text-white dark:bg-white dark:text-black dark:hover:bg-gray-200 rounded-full font-medium text-xs sm:text-sm shadow-md transition-all duration-150 cursor-pointer"
               >
                 <span>View Resume</span>
                 <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
               </a>
+
+              <button
+                onClick={() => onViewChange("content")}
+                className="glare-button group flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 bg-white dark:bg-[#1a1a1a] text-gray-800 dark:text-white border border-black/10 dark:border-white/15 hover:border-black/25 dark:hover:border-white/30 rounded-full font-medium text-xs sm:text-sm shadow-xs hover:shadow-md transition-all duration-150 cursor-pointer"
+              >
+                <span>Content Creation</span>
+                <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
+              </button>
             </div>
           </div>
 
