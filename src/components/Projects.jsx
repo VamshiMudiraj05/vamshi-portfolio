@@ -17,7 +17,7 @@ export default function Projects() {
     return () => clearInterval(interval);
   }, []);
 
-  const categories = ["All", "Full Stack", "Frontend", "Data Science / ML"];
+  const categories = ["All", "Full Stack", "AI Agents", "Data Science / ML"];
 
   const filteredProjects =
     activeCategory === "All"
@@ -56,7 +56,7 @@ export default function Projects() {
           </h2>
 
           <p className="font-sans text-gray-600 dark:text-white/60 text-sm sm:text-base max-w-lg leading-relaxed">
-            A selection of production systems, full-stack applications, and machine learning models built with modern web technologies.
+            A selection of production systems, full-stack applications, autonomous AI agents, and machine learning models.
           </p>
 
           {/* Category Filter Pills */}
